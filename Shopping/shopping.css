@@ -1,0 +1,130 @@
+
+body{
+    background: linear-gradient(90deg, rgba(113,113,115,1) 2%, rgba(241,241,245,1) 97%);
+    margin: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255);
+}
+
+.navbar{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.navbar-brand img{
+    border-radius: 15px;
+}
+
+.jumbotron{
+    color: rgb(12, 49, 45);
+    background: linear-gradient(90deg, rgba(113,113,115,1) 2%, rgba(241,241,245,1) 97%);
+    padding: 5px;
+}
+
+.btn :active{
+    box-shadow: none;
+}
+
+.btn :focus{
+    box-shadow: none;
+}
+
+.btn {
+    background: linear-gradient(90deg, rgba(174,174,233,1) 0%, rgba(9,68,141,1) 100%);
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nsrimg{
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.card .card-img-top{
+    height: 200px;
+}
+
+.cardbutton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardbutton .btn{
+    width: 48%;
+}
+
+.card-body .product-header{
+    display: flex;
+    justify-content: space-between;
+    height : 50px;
+}
+
+.fa-star.checked {
+    color: orange;
+  }
+
+.card-title .productprice{
+    color: green;
+  }
+
+  .description{
+    height:48px;
+  }
+
+  .rating-count{
+    margin-left: 5px;
+  }
+
+  .cartpointer{
+    cursor: pointer;
+  }
+
+  .aboutus,.contactus{
+    text-align: center;
+    background-color: rgb(125, 124, 121);
+    margin: 20px 2px;
+    padding: 10px;
+  }
+
+  .cartitem{
+    border:none;
+    height: 35px;
+  }
+
+  .cartimgsize{
+
+    width: 150px;
+    height: 130px;
+    padding-top: 20px;
+
+  }
+
+  .addcartimg{
+    width: 200px;
+    height: 200px;
+    margin : auto;
+    display : block;
+  }
+
+  .buystyle{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+
+  .alertstyle{
+    display: none;
+    float: right;
+    width: 300px;
+  }
+
